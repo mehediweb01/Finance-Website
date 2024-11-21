@@ -1,10 +1,6 @@
 # React + Vite
 
-<!-- next ui command {manual install} -->
-
-npm install @nextui-org/react @nextui-org/theme tailwindcss react-icons framer-motion
-
-<!-- end -->
+next ui command {manual install} -> npm install @nextui-org/react @nextui-org/theme tailwindcss react-icons framer-motion
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
