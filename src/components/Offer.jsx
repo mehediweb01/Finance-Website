@@ -28,7 +28,7 @@ const Offer = () => {
         <h1 className="font-bold md:text-[40px] text-3xl md:leading-10 leading-6 text-center text-white">
           What do we offer?
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-6 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-6 mt-10">
           {offerData.map((item, index) => (
             <div key={index} className="flex justify-center items-start gap-3">
               <div className="bg-[#3D3F54] rounded-[24px] max-w-[66px] max-h-[66px] p-4 ">
