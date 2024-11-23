@@ -10,8 +10,13 @@ import logo from "/logo.png";
 
 const NavbarArea = () => {
   return (
-    <Navbar position="static" isBordered>
-      <NavbarBrand href="/" >
+    <Navbar
+      shouldHideOnScroll
+      isBlurred={false}
+      className="bg-transparent w-full"
+      maxWidth="xl"
+    >
+      <NavbarBrand href="/">
         <img src={logo} alt="Logo" />
       </NavbarBrand>
       <NavbarContent justify="end" className="sm:mr-0 mr-6">

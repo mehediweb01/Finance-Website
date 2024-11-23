@@ -1,6 +1,6 @@
 const Vision = () => {
   return (
-    <section className="pb-8 sm:mt-56 mt-20">
+    <section className="pb-8 sm:mt-32 mt-20">
       <div className="bg-[#3D3D543D] py-8 px-16 rounded-md ">
         <h3 className="font-bold text-3xl text-white text-center leading-10">
           Wern&apos;s Vision

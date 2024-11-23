@@ -23,7 +23,7 @@ const Offer = () => {
     },
   ];
   return (
-    <section className="sm:mt-24 mt-16 py-6">
+    <section className="sm:mt-32 mt-24 py-6">
       <div>
         <h1 className="font-bold md:text-[40px] text-3xl md:leading-10 leading-6 text-center text-white">
           What do we offer?

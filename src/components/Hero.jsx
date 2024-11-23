@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row justify-between sm:items-start items-center py-8 md:mt-40 mt-5 gap-5">
+    <section className="flex flex-col-reverse md:flex-row justify-between sm:items-start items-center py-8 md:mt-32 mt-5 gap-5">
       <div>
         <h2 className="font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white ">
           Spend your Cardano anywhere, anytime.
