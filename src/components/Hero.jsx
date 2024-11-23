@@ -36,8 +36,8 @@ const Hero = () => {
         </Button>
       </div>
       {loading ? (
-        <Skeleton className="bg-[#3D3F54] rounded-lg -mr-[130px]">
-          <div className="w-[600px] h-[400px]"></div>
+        <Skeleton className="bg-[#3D3F54] rounded-lg lg:-mr-[130px] md:-mr-[80px]">
+          <div className="md:w-[400px] lg:w-[600px] w-[300px] lg:h-[400px] md:h-[300px] h-[200px] "></div>
         </Skeleton>
       ) : (
         <img src={heroImg} alt="" className="w-1/2 md:-mr-[120px]" />
