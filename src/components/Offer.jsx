@@ -25,7 +25,7 @@ const Offer = () => {
   return (
     <section className="sm:mt-32 mt-24 py-6">
       <div>
-        <h1 className="font-bold md:text-[40px] text-3xl md:leading-10 leading-6 text-center text-white">
+        <h1 className="font-bold md:text-[40px] sm:text-3xl text-2xl md:leading-10 leading-8 text-center text-white">
           What do we offer?
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-6 mt-10">

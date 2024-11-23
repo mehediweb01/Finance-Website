@@ -1,8 +1,17 @@
-import { Button } from "@nextui-org/react";
+import { Button, Skeleton } from "@nextui-org/react";
 import heroImg from "/heroCard.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+   const [loading, setLoading] = useState(true);
+
+   useEffect(() => {
+     setTimeout(() => {
+       setLoading(false);
+     }, 3000);
+   }, []);
+  
   return (
     <section className="flex flex-col-reverse md:flex-row justify-between sm:items-start items-center py-8 md:mt-32 mt-5 gap-5">
       <div>
@@ -26,7 +35,13 @@ const Hero = () => {
           </span>
         </Button>
       </div>
-      <img src={heroImg} alt="" className="w-1/2 md:-mr-[120px]" />
+      {loading ? (
+        <Skeleton className="bg-[#3D3F54] rounded-lg -mr-[130px]">
+          <div className="w-[600px] h-[400px]"></div>
+        </Skeleton>
+      ) : (
+        <img src={heroImg} alt="" className="w-1/2 md:-mr-[120px]" />
+      )}
     </section>
   );
 };
