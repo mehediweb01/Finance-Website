@@ -34,7 +34,7 @@ const Feedbacks = () => {
           <div className="w-14 h-14 rounded-full bg-[#3D3F54] flex justify-center items-center">
             <img src={quote} alt="" />
           </div>
-          <p className="text-white text-sm">{item.description}</p>
+          <p className="text-white text-sm">&quot;{item.description}&quot;</p>
           <div className="flex items-center gap-2">
             <div>
               <img src={item.useImage} alt="" />

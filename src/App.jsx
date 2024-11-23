@@ -1,4 +1,5 @@
 import DebitCard from "./components/DebitCard";
+import FAQs from "./components/FAQs";
 import Feedbacks from "./components/Feedbacks";
 import Hero from "./components/Hero";
 import NavbarArea from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
           <DebitCard />
           <PerfectCard />
           <Feedbacks />
+          <FAQs />
         </div>
       </div>
     </>
